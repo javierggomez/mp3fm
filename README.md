@@ -19,12 +19,12 @@ USAGE
 
 Run the program with
 
-./mp3fm [-f FREQ] FILE
+sudo ./mp3fm [-f FREQ] FILE
 
 where FREQ is the FM frequency in MHz (defaults to 103.3 MHz if -f is not specified) and FILE is the MP3 file to transmit. FM will be transmitted through GPIO4: add a 20cm wire as an antenna to increase range.
 Example:
 
-./mp3fm -f 88.5 test_sound.mp3
+sudo ./mp3fm -f 88.5 test_sound.mp3
 
 Run
 
